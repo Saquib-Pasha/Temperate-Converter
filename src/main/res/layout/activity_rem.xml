@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1CB5E0"
+    android:orientation="vertical"
+    tools:context=".rem">
+
+    <TextView
+        android:id="@+id/tv_temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="center_horizontal"
+        android:text="ENTER TEMPERATURE IN REAUMUR"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_temp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:inputType="numberDecimal|numberSigned"
+        android:textColor="#000046"
+        android:textSize="30sp"></EditText>
+
+    <Button
+        android:id="@+id/bt_sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:text="submit"
+        android:textColor="#000046"
+        android:textSize="30sp" />
+
+
+</LinearLayout>
